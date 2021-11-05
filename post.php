@@ -26,7 +26,7 @@ class Post {
 	}
 }
 
-$post = new SomaPost($postId);
+$post = new Post($postId);
 
 echo $post->name;
 
